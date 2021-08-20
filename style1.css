@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading::before{
+    content: " ";
+    background-image: url("../Static_Agency_website/images/pexels-photo-248515.png");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.89;
+}
+.heading{
+  text-align: center;
+height: 620px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+top: 0px;
+    color: white;
+}
+
+.heading h1{
+  padding: 100px 3px;
+  font-size: 3.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading p{
+    padding: 10px 60px;
+}
+.heading a{
+    position: absolute;
+    top: 550px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #666;
+    background-color: rgb(49, 48, 48);
+   font-size: 1.5rem;
+   padding: 18px;
+   margin: -20px;
+   font-family: Arial, Helvetica, sans-serif;
+   border-radius: 10px;
+}
+.heading a:hover{
+   background-color: white;
+   color: black;
+}
+.heading p{
+    margin: 10px;
+    line-height: 1.6;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first{
+    padding: 53px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgb(241, 241, 241);
+}
+.first h1{
+    font-size: 2.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first .sub-first{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 53px;
+    line-height: 1.6;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 75px;
+  
+  background-color: #666;
+}
+.content .box1{
+    position: relative;
+  border: 0px solid black;
+  text-align: center;
+  margin: 10px;
+  height: 600px;
+  width: 350px;
+  background-color: white;
+  color: rgb(56, 56, 56);
+}
+.box1 h2{
+    margin: 50px;
+  font-size: 2.0rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.box1 p{
+    margin: 10px;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.pimg1{
+  background-image: url("../Static_Agency_website/images/code2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  color: blue;
+}
+.content .box2{
+    position: relative;
+  border: 0px solid black;
+  text-align: center;
+  margin: 10px;
+  height: 600px;
+  width: 350px;
+  background-color: white;
+  color: rgb(56, 56, 56);
+}
+.box2 h2{
+    margin: 50px;
+  font-size: 2.0rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box2 p{
+    margin: 10px;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.pimg2{
+    background-image: url("../Static_Agency_website/images/code3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    color: blue;
+}
+.content .box3{
+    position: relative;
+  border: 0px solid black;
+  text-align: center;
+  margin: 10px;
+  height: 600px;
+  width: 350px;
+  background-color: white;
+  color: rgb(56, 56, 56);
+}
+.box3 h2{
+    margin: 50px;
+  font-size: 2.0rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box3 p{
+    margin: 10px;
+  font-size: 1.5rem;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.pimg3{
+    background-image: url("../Static_Agency_website/images/code4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    color: blue;
+}
+.second{
+    padding: 100px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgb(241, 241, 241);
+}
+.second h1{
+    font-size: 2.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.second p{
+    padding: 30px 2px;
+   line-height: 1.6;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 .section2-box1{
+    position: relative;
+    text-align: center;
+    background:rgb(33, 132, 199);
+    color: white;
+    width: 1033px;
+    height: 400px;
+}
+.section2 .section2-box1 h2{
+   padding: 80px 3px;
+   font-size: 2.2rem;
+   font-family:Arial, Helvetica, sans-serif ;
+}
+.section2 .section2-box1 p{
+    font-size: 1.5rem;
+    margin: 10px;
+    font-family:Arial, Helvetica, sans-serif ;
+  line-height: 1.6;
+}
+.section2 .section2-box2{
+    text-align: center;
+    position: relative;
+    background-color: #666;
+    color: white;
+    width: 1033px;
+    height: 400px;
+}
+.section2 .section2-box2 h2{
+    padding: 80px 3px;
+    font-size: 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .section2 .section2-box2 p{
+    font-size: 1.5rem;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+ line-height: 1.6;
+}
+
+.footer{
+    display: flex;
+    position: relative;
+  background-color: black;
+}
+.footer .footer-box1{
+  border: 0px solid black;
+  text-align: center;
+  height: 150px;
+  width: 950px;
+}
+.footer .footer-box1 h2{
+   font-size: 2.0rem;
+   padding: 50px 2px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+  }
+.footer .footer-box2{
+    border: 0px solid black;
+    text-align: center;
+    width: 950px;
+}
+.footer .footer-box2 h2{
+    font-size: 2.0rem;
+    padding: 50px 2px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
